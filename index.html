@@ -310,7 +310,7 @@
     // we can requests the json data using any of supported
     // method (fetch is a new one by latest Web API, but
     // can to be replaced with any of other GET request)
-    fetch('/data.json')
+    fetch('./data.json')
       .then(response => response.json())
       .then(operateJSON)
       .catch(error => {
