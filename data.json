@@ -1,0 +1,182 @@
+{
+    "Catalog": [
+        {
+            "CategoryId": 87,
+            "CategoryName": "Bracelets",
+            "CatalogItems": [
+                {
+                    "CatalogItemId": 729,
+                    "CatalogItemSequence": 11,
+                    "CatalogItemName": "All natural Teak Bracelet",
+                    "CatalogItemDescription": "Environmentally friendly Burmese Teak bracelet. Each bracelet is handmade in Myanmar",
+                    "Price": 47.0,
+                    "Active": "True",
+                    "Sku": "bracelet2",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/pITIRsMM2001-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 727,
+                    "CatalogItemSequence": 9,
+                    "CatalogItemName": "Gold Chain With Diamond Pendant & matching Bracelet",
+                    "CatalogItemDescription": "22K gold chain with 4.25 kt diamonds in a simple setting, with an elegantly simple matching 22K gold chain bracelet.",
+                    "Price": 1250.0,
+                    "Active": "True",
+                    "Sku": "neck7",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/BCdQpqiq3922-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 728,
+                    "CatalogItemSequence": 10,
+                    "CatalogItemName": "Red-Hots Bracelet",
+                    "CatalogItemDescription": "Fashion forward Red-Hots chunky bracelet is comfortable and fun to wear.",
+                    "Price": 49.99,
+                    "Active": "True",
+                    "Sku": "bracelet1",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/zQHxu8YP6898-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 823,
+                    "CatalogItemSequence": 0,
+                    "CatalogItemName": "Trinket",
+                    "CatalogItemDescription": "This is a beautiful trinket that will add a lot of class to your bracelet",
+                    "Price": 1.49,
+                    "Active": "True",
+                    "Sku": "",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/thumb637071818035413125.Jpeg"
+                }
+            ]
+        },
+        {
+            "CategoryId": 85,
+            "CategoryName": "Ear Rings",
+            "CatalogItems": [
+                {
+                    "CatalogItemId": 723,
+                    "CatalogItemSequence": 99,
+                    "CatalogItemName": "Amazing Diamond Earrings",
+                    "CatalogItemDescription": "These drop earring sparkle and show off your long neck. They are cut to catch the light with every movement.",
+                    "Price": 499.95,
+                    "Active": "True",
+                    "Sku": "earings2",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/YlFGvheZ5779-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 733,
+                    "CatalogItemSequence": 15,
+                    "CatalogItemName": "Jump through Hoops Earrings",
+                    "CatalogItemDescription": "Gold hoops are intertwined to make a chic, dangly earring. These light and timeless earring will be a favorite.",
+                    "Price": 79.99,
+                    "Active": "True",
+                    "Sku": "earrings3",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/bijKKQsl7718-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 718,
+                    "CatalogItemSequence": 1,
+                    "CatalogItemName": "Turquoise Earrings",
+                    "CatalogItemDescription": "Classic Floral drop earrings set in platinum",
+                    "Price": 88.5,
+                    "Active": "True",
+                    "Sku": "earings1",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/r6UMTfaF1299-TN.jpg"
+                }
+            ]
+        },
+        {
+            "CategoryId": 86,
+            "CategoryName": "Necklaces",
+            "CatalogItems": [
+                {
+                    "CatalogItemId": 725,
+                    "CatalogItemSequence": 7,
+                    "CatalogItemName": "Amethyst & Diamand Necklace",
+                    "CatalogItemDescription": "Timeless and unusual. This legacy amethyst and diamond necklace has every detail to be enjoyed far into the future.",
+                    "Price": 129.99,
+                    "Active": "True",
+                    "Sku": "neck5",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/84tX51rP0272-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 726,
+                    "CatalogItemSequence": 8,
+                    "CatalogItemName": "Beautiful Pearl & Diamond Necklace",
+                    "CatalogItemDescription": "When you want a statement piece that is easy to wear, this beautiful, unusual necklace is your go-to piece.",
+                    "Price": 629.99,
+                    "Active": "True",
+                    "Sku": "neck6",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/xbjayynN1923-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 731,
+                    "CatalogItemSequence": 13,
+                    "CatalogItemName": "Blue Lariat",
+                    "CatalogItemDescription": "Wear this triangle lariat necklace at different lengths, depending on your mood or style.",
+                    "Price": 139.99,
+                    "Active": "True",
+                    "Sku": "neck8",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/bFAfCoIc6223-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 722,
+                    "CatalogItemSequence": 4,
+                    "CatalogItemName": "Elegante Necklace",
+                    "CatalogItemDescription": "21 inch sapphires set in silver, drop-style that adds elegance and sophistication.",
+                    "Price": 374.99,
+                    "Active": "True",
+                    "Sku": "Neck3",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/-uUWMqb74224-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 724,
+                    "CatalogItemSequence": 6,
+                    "CatalogItemName": "Fun Orange Necklace",
+                    "CatalogItemDescription": "Casual fun, in a silver setting, this is easy and goes with most casual outfits.",
+                    "Price": 67.5,
+                    "Active": "True",
+                    "Sku": "neck4",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/82zBd-a57375-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 730,
+                    "CatalogItemSequence": 12,
+                    "CatalogItemName": "Goddess Necklace",
+                    "CatalogItemDescription": "Receive blessings and peace from the Goddess Eirene when you wear this unusual, beautifully crafted necklace.",
+                    "Price": 137.95,
+                    "Active": "True",
+                    "Sku": "neck7",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/80S7xLLc2724-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 720,
+                    "CatalogItemSequence": 2,
+                    "CatalogItemName": "Gorgeous Necklace",
+                    "CatalogItemDescription": "Wear this with jeans or to dress up your evening outfit. Elegant and versatile. A MUST HAVE for your jewelry collection",
+                    "Price": 47.5,
+                    "Active": "True",
+                    "Sku": "neck1",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/TnC-mdtE0713-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 732,
+                    "CatalogItemSequence": 14,
+                    "CatalogItemName": "Healing Amber Necklace",
+                    "CatalogItemDescription": "Embrace the soothing properties of Baltic Amber when you wear this stunning necklace.",
+                    "Price": 149.99,
+                    "Active": "True",
+                    "Sku": "neck9",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/-kY6mqKM7040-TN.jpg"
+                },
+                {
+                    "CatalogItemId": 721,
+                    "CatalogItemSequence": 3,
+                    "CatalogItemName": "Piedra Necklace",
+                    "CatalogItemDescription": "Unique and unusual. No two necklaces are the same. Will enhance every outfit!",
+                    "Price": 129.5,
+                    "Active": "True",
+                    "Sku": "Neck2",
+                    "ImageThumb": "https://s3-us-west-1.amazonaws.com/liteningcart/U7ccRV1l2805-TN.jpg"
+                }
+            ]
+        }
+    ]
+}

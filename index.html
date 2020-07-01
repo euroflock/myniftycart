@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css?v=1.0.1">
+</head>
+
+<body>
+
+  <!--section-->
+  <section class="section">
+    <div class="category">
+    </div>
+  </section>
+  <!--section-->
+
+  <!-- # modal card -->
+  <div class="modal">
+    <div class="modal__overlay" onClick="closeModal()"></div>
+    <div class="modal__content">
+      <button type="button" class="modal__close" onClick="closeModal()">Close</button>
+      <form action="/action_page.php" class="modal__form">
+        <div class="modal__head">
+          <h2 class="modal__title">Trinket</h2>
+        </div>
+        <div class="modal__body">
+          <div class="modal__pict">
+            <img class="modal__img" src="https://s3-us-west-1.amazonaws.com/liteningcart/thumb637071818035413125.Jpeg"
+              alt="">
+          </div>
+          <div class="modal__desc">
+            This is a beautiful trinket that will add a lot of class to your bracelet
+          </div>
+        </div>
+        <div class="modal__info">
+          <div class="modal__column">
+            <label class="modal__label" for="size">Size</label>
+            <select class="modal__select" name="size" id="size">
+              <option value="2">14x30</option>
+              <option value="2">14x29</option>
+              <option value="3">14x28</option>
+              <option value="4">14x27</option>
+              <option value="5">15x29</option>
+              <option value="6">15x30-31</option>
+              <option value="7">15x32-33</option>
+              <option value="8">15x34-35</option>
+              <option value="9">14 x 31</option>
+            </select>
+          </div>
+          <div class="modal__column">
+            <label class="modal__label" class="modal__label" for="color">Color</label>
+            <select class="modal__select" name="color" id="color">
+              <option value="34">White</option>
+              <option value="34">Blue</option>
+              <option value="35">Blue Stripe_1.00</option>
+              <option value="36">Red Stripe_1.00</option>
+              <option value="37">Pastel Pink</option>
+              <option value="38">Pastel Green</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal__prices">
+          <div class="modal__price">Only <span class="modal__price-num">1.49</span></div>
+          <div class="modal__quantity">
+            <label class="modal__quantity-text">Quantity:</label>
+            <input class="modal__quantity-control" name="quantity" type="number" value="1" min="1" max="999">
+          </div>
+        </div>
+        <div class="modal__foot">
+          <button type="button" class="btn modal__btn modal__btn--add-cart" onClick="openModalCart();closeModal();">Add to Cart</button>
+          <button type="button" class="btn modal__btn modal__btn--checkout" onClick="openModalCart();closeModal();">Checkout</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- # modal card -->
+
+  <!-- # modal cart -->
+  <div id="modalCart" class="modal-cart">
+    <div class="modal-cart__overlay" onClick="closeModalCart()"></div>
+    <div class="modal-cart__content">
+      <div class="modal-cart__item">
+        <h2 class="modal-cart__title">Your Order Summery</h2>
+        <form action="#" class="goods" method="POST">
+          <div class="goods__items">
+            <!-- items -->
+            <div class="goods__item">
+              <button class="goods__del"></button>
+              <div class="goods__name">Dress Shirt Sleeve 14x29</div>
+              <div class="goods__count">1</div>
+              <div class="goods__price-doggy">26.95</div>
+              <div class="goods__price">26.95</div>
+            </div>
+          </div>
+          <div class="goods__item goods__item--total">
+            <div class="goods__name">Item Total</div>
+            <div class="goods__price-item-total">27.85</div>
+          </div>
+          <div class="goods__item goods__item--tax">
+            <div class="goods__name">Sales Tax Hl Only</div>
+            <div class="goods__price-tax">27.85</div>
+          </div>
+          <div class="goods__item goods__item--shipping-change">
+            <div class="goods__name">Shipping Change</div>
+            <div class="goods__price-shipping">2.50</div>
+          </div>
+          <div class="goods__item goods__item--order-total">
+            <div class="goods__name">Order Total</div>
+            <div class="goods__price-order-total">30.45</div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-cart__item">
+        <form action="#" class="form-coupon" method="POST">
+          <input class="control form-coupon__control" type="text" placeholder="Coupon Code" required>
+          <button class="btn form-coupon__submit" type="submit">VALIDATE</button>
+        </form>
+      </div>
+      <div class="modal-cart__item">
+        <div class="modal-cart__continue">
+          <a href="#" class="btn modal-cart__continue-shopping">CONTINUE SHOPPING</a>
+          <div class="modal-cart__continue-text">Do you have Account?</div>
+          <a href="#" class="btn modal-cart__login">LOGIN</a>
+        </div>
+      </div>
+      <div class="modal-cart__item">
+        <form action="#" class="form-payment" method="POST">
+          <div class="form-payment__item">
+            <label for="email" class="form-payment__label">Email:</label>
+            <input class="control form-payment__control" type="email" id="email" name="email" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="fname" class="form-payment__label">First name:</label>
+            <input class="control form-payment__control" type="text" id="fname" name="fname" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="lname" class="form-payment__label">Last name:</label>
+            <input class="control form-payment__control" type="text" id="lname" name="lname" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="zip" class="form-payment__label">Zip:</label>
+            <input class="control form-payment__control" type="text" id="zip" name="zip" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="phone" class="form-payment__label">Phone No:</label>
+            <input class="control form-payment__control" type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="card-number" class="form-payment__label">Credit Card:</label>
+            <input class="control form-payment__control" type="text" id="card-number" name="card-number"
+              placeholder="MM/YY/CCV" required>
+          </div>
+
+          <h3 class="form-payment__title">Shipping Information</h3>
+          <div class="form-payment__item">
+            <label for="sname" class="form-payment__label">Shipping to Name:</label>
+            <input class="control form-payment__control" type="text" id="sname" name="sname" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="address" class="form-payment__label">Address:</label>
+            <input class="control form-payment__control" type="text" id="address" name="address" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="zip-shipping" class="form-payment__label">Zip:</label>
+            <input class="control form-payment__control" type="text" id="zip-shipping" name="zip-shipping" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="city" class="form-payment__label">City:</label>
+            <input class="control form-payment__control" type="text" id="city" name="city" required>
+          </div>
+          <div class="form-payment__item">
+            <label for="state" class="form-payment__label">State:</label>
+            <input class="control form-payment__control" type="text" id="state" name="state" required>
+          </div>
+          <div class="form-payment__item">
+            <p>If you would like to create a account to speed making future orders, just enter a password i the
+              following field If not, just leave it empty.</p>
+          </div>
+          <div class="form-payment__item">
+            <label for="password" class="form-payment__label">Password:</label>
+            <input class="control form-payment__control" type="password" id="password" name="password" required>
+          </div>
+          <div class="form-payment__item">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- # modal cart -->
+
+  <script>
+    // modal 
+    const modal = document.querySelector('.modal');
+    const modalCart = document.querySelector('.modal-cart');
+
+    // function open modal
+    function openModal() {
+      modal.classList.add('modal--active');
+    }
+
+    // function close modal
+    function closeModal() {
+      modal.classList.remove('modal--active');
+    }
+
+    // function open modal cart
+    function openModalCart() {
+      modalCart.classList.add('modal-cart--active');
+    }
+
+    // function close modal cart
+    function closeModalCart() {
+      modalCart.classList.remove('modal-cart--active');
+    }
+  </script>
+
+  <script>
+    // PLEASE NOTE: javascript writed in a latest ECMAScript version es6+
+    // (it may easy to be re-writed into the vanilla es5 javascript)
+
+    // function to operate with loaded json data
+    const operateJSON = json => {
+      console.log(json)
+      if (json && json.Catalog && json.Catalog.length) {
+        // define the container where we will append a new categories
+        const categoriesContainer = document.querySelector('.section .category')
+        // clear old categories content before generate the new one
+        categoriesContainer.innerHTML = ''
+        // looping json data and create categories array one-by-one        
+        let categotiesArray = json.Catalog.map(category => createCategory(category))
+
+        // IMPORTANT: call the DOM update only once after all content generated
+        categoriesContainer.innerHTML += categotiesArray.join``
+      }
+    }
+
+    // function to create one category content using json data
+    const createCategory = categoryData => {
+      // generate the items content for include into the category template
+      let content = createCategoryContent(categoryData.CatalogItems),
+      id = categoryData.CategoryId,
+      title = categoryData.CategoryName
+      // fill template with data and return generated category content (including the html comments)
+      return `
+        <!--category ${id}-->
+        <input type="radio" id="category-${id}" name="category" class="category__control">
+        <label for="category-${id}" class="category__label">${title}</label>
+        <div class="category__content">
+          <div class="category__columns">
+            ${content}
+          </div>
+        </div>
+        <!--category ${id}-->
+      `
+    }
+
+    // function to create one item in the DOM using json data
+    const createItem = itemData => {
+      let id = itemData.CatalogItemId,
+      description = itemData.CatalogItemDescription,
+      name = itemData.CatalogItemName,
+      image = itemData.ImageThumb,
+      price = itemData.Price
+      // other but currently unused properties
+      // sequence = itemData.CatalogItemSequence
+      // active = itemData.Active
+      // sku = itemData.Sku
+
+      // fill template with data and return generated item content (including the html comments)
+      return `
+        <div class="category__column">
+          <!-- # card ${id} -->
+          <div class="card">
+            <div class="card__head">
+              <h2 class="card__title">${name}</h2>
+            </div>
+            <div class="card__body">
+              <div class="card__pict">
+                <img class="card__img"
+                  src="${image}" alt="">
+              </div>
+              <div class="card__desc">${description}</div>
+            </div>
+            <div class="card__foot">
+              <div class="card__price">Price <span class="card__price-num">${price}</span></div>
+              <button type="button" class="btn card__btn" onclick="openModal(${id})">Select</button>
+          </div>
+          </div>
+          <!-- # card ${id} -->
+        </div>
+      `
+    }
+
+    // function to create category content (fill items)
+    const createCategoryContent = catalogItems => {
+      if (catalogItems && catalogItems.length) {
+        // looping json data and create the item content array one-by-one        
+        let itemsArray = catalogItems.map(item => createItem(item))
+        // return the generated items content
+        return itemsArray.join``
+      }
+    }
+
+    // when document loaded and ready to operate with DOM
+    // we can requests the json data using any of supported
+    // method (fetch is a new one by latest Web API, but
+    // can to be replaced with any of other GET request)
+    fetch('/data.json')
+      .then(response => response.json())
+      .then(operateJSON)
+      .catch(error => {
+        console.error('JSON parsing failed', error)
+      })
+
+  </script>
+</body>
+
+</html>
